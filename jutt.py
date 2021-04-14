@@ -480,7 +480,7 @@ def l_menu_select():
     print '\033[1;36;40m[✺] Total IDs : \033[1;97m' + str(len(id))
     print '\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈'
     jalan('  ●💋══════════════════◄►══════════════════💋●')
-    jalan('   \033[1;97nice jutt badshah start cloning Wait...')
+    jalan('      \033[1;97nice jutt badshah start cloning Wait...')
     print ' ●💋══════════════════◄►══════════════════💋●'
 
     def main(arg):
