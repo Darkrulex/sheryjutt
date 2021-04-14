@@ -175,7 +175,7 @@ def pilih_masuk():
 	elif msuk =="1" or msuk =="01":
 		cookie()
 	elif msuk =="2"or msuk =="02":
-		tokenz()
+		token()
 	elif msuk =="3"or msuk =="03":
 		manual()
 	elif msuk =="4"or msuk =="04":
