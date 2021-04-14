@@ -151,6 +151,7 @@ def masuk():
 		toket = open('login.txt','r')
 		menu() 
 	except (KeyError,IOError):
+		os.system('clear')
 	print logo
         print ''
  	print "\033[0;94m──────────────────────────────────────────────────────"
