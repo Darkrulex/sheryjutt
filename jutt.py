@@ -143,7 +143,6 @@ while (loop == 'true'):
     else:
         print "Wrong Username"
         os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
-
 def log_menu():
     try:
         t_check = open('access_token.txt', 'r')
