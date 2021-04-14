@@ -147,6 +147,11 @@ while (loop == 'true'):
 ######MASUK######
 def masuk():
         os.system('clear')
+	try:
+		toket = open('login.txt','r')
+		menu() 
+	except (KeyError,IOError):
+        os.system('clear')
 	print logo
         print ''
  	print "\033[0;94m──────────────────────────────────────────────────────"
@@ -403,14 +408,6 @@ def moch_yayan():
         time.sleep(1)
         raw_input(' \x1b[1;92mPress enter after turning on mobile data/wifi ')
         menu()
-
-    os.system('clear')
-    print logo
-    tok = open('/sdcard/.hst.txt', 'r').read()
-    print '  \x1b[1;92mLogged in user: \x1b[1;91m' + z
-    print 47 * '-'
-    print ' \x1b[1;93m Active token: \x1b[1;91m' + tok
-
 
     os.system('clear')
     print logo
