@@ -508,5 +508,4 @@ def l_menu_select():
     masuk()
 
 
-if __name__ == '__main__':
     masuk()
