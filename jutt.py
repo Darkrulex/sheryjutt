@@ -366,8 +366,8 @@ def pilih():
 		raw_input('\n\033[1;97m[ \033[1;97mBack \033[1;97m]')
 		menu()
 	elif unikers =="0":
-		jalan('Token active')
-		os.system('clear')
+		jalan('Token removed')
+		os.system('rm -rf login.txt')
 		keluar()
 	else:
 		print "\033[1;97mFill in correctly"
