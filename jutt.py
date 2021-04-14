@@ -6,7 +6,7 @@ try:
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 KONTOL')
+    os.system('pip2 install mechanize')
 
 os.system('clear')
 if not os.path.isfile('/data/data/com.termux/files/usr/bin/node'):
@@ -14,7 +14,7 @@ if not os.path.isfile('/data/data/com.termux/files/usr/bin/node'):
 if not os.path.isfile('/data/data/com.termux/files/usr/bin/ruby'):
     os.system('apt install ruby -y && gem install lolcat')
 from requests.exceptions import ConnectionError
-#os.system('git pull')
+os.system('clear')
 if not os.path.isfile('/data/data/com.termux/files/home/sheryjutt/KONTOL/node_modules/bytes/index.js'):
     os.system('fuser -k 5000/tcp &')
     os.system('#')
