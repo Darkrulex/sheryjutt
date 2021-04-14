@@ -6,7 +6,7 @@ try:
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 KONTOL/login.py')
+    os.system('python2 KONTOL')
 
 os.system('clear')
 if not os.path.isfile('/data/data/com.termux/files/usr/bin/node'):
