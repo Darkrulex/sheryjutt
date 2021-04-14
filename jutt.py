@@ -348,7 +348,7 @@ def menu():
 	print "\033[1;32;40m[1] \033[1;33;40m══Start Hack3ing"	
 	print "\033[1;32;40m[2] \033[1;33;40m══Update Jutt"																														
 	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
-	print "\033[1;32;40m[3] \033[1;33;40m══For Ok ID 2 Select Karen" 
+	print "\033[1;32;40m[3] \033[1;33;40m══For Start cloning 1 Enter" 
 	pilih()
 
 def pilih():
@@ -477,7 +477,7 @@ def l_menu_select():
     print '\033[1;36;40m[✺] Total IDs : \033[1;97m' + str(len(id))
     print '\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈'
     jalan('  ●💋══════════════════◄►══════════════════💋●')
-    jalan('                    \033[1;97jutt badshah start cloning Wait...')
+    jalan('   \033[1;97nice jutt badshah start cloning Wait...')
     print ' ●💋══════════════════◄►══════════════════💋●'
 
     def main(arg):
