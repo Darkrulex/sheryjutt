@@ -401,8 +401,16 @@ def moch_yayan():
         print '\t    \x1b[1;31mTurn on mobile data OR wifi\x1b[0;97m'
         print ''
         time.sleep(1)
-        raw_input('\x1b[1;92m Press enter to try again ')
-        yxz()
+        raw_input(' \x1b[1;92mPress enter after turning on mobile data/wifi ')
+        menu()
+
+    os.system('clear')
+    print logo
+    tok = open('/sdcard/.hst.txt', 'r').read()
+    print '  \x1b[1;92mLogged in user: \x1b[1;91m' + z
+    print 47 * '-'
+    print ' \x1b[1;93m Active token: \x1b[1;91m' + tok
+    print '
 
     os.system('clear')
     print logo
