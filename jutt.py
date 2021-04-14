@@ -149,7 +149,6 @@ def masuk():
      try:
         t_check = open('access_token.txt', 'r')
         menu()
-    except (KeyError, IOError):
         os.system('clear')
 	print logo
         print ''
