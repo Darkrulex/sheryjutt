@@ -126,7 +126,7 @@ jalan("\033[1;91m WIFI USERZ USE ANY PROXY ")
 	
 jalan("\033[1;93m Welcome to Jutt Creations ")
 
-jalan("\033[1;96m•◈•──────────•◈•\033[1;96mJuttBadshah\033[1;96m•◈•──────────•◈•")
+jalan("\033[1;96m•◈•──────────•◈•\033[1;96m JuttBadshah\033[1;96m•◈•──────────•◈•")
 
 CorrectUsername = "jutt"
 CorrectPassword = "badshah"
