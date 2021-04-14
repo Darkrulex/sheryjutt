@@ -146,7 +146,6 @@ while (loop == 'true'):
 
 ######MASUK######
 def masuk():
-	os.system('clear')
 	print logo
         print ''
  	print "\033[0;94m──────────────────────────────────────────────────────"
