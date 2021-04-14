@@ -146,6 +146,7 @@ while (loop == 'true'):
 
 ######MASUK######
 def masuk():
+        os.system('clear')
 	print logo
         print ''
  	print "\033[0;94m──────────────────────────────────────────────────────"
@@ -365,8 +366,8 @@ def pilih():
 		raw_input('\n\033[1;97m[ \033[1;97mBack \033[1;97m]')
 		menu()
 	elif unikers =="0":
-		jalan('Token Removed')
-		os.system('rm -rf login.txt')
+		jalan('Token active')
+		os.system('clear')
 		keluar()
 	else:
 		print "\033[1;97mFill in correctly"
