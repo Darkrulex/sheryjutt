@@ -201,7 +201,7 @@ def tokenz():
 		os.system('xdg-open https://youtube.com/channel/UCS7oHOu5H6nZbSmxSfnT56A')
                 menu()
 	except KeyError:
-		print "\033[0;97m[\033[0;39m!\033[0;97m] \033[1;92mToken Salah !"
+		print "\033[0;97m[\033[0;39m!\033[0;97m] \033[1;92mToken invalid !"
 		os.system('xdg-open https://youtu.be/hQ-lYxozghU')
 		time.sleep(0.03)
 		masuk()
