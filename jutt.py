@@ -505,7 +505,4 @@ def l_menu_select():
     print '\x1b[1;94m────────────────────────────────────────────────────'
     print ''
     raw_input('\x1b[1;96m Press Entet To Back ')
-    masuk()
 
-
-    masuk()
