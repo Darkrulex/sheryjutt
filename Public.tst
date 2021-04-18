@@ -1,18 +1,18 @@
 #!/usr/bin/python2
 #coding=utf-8
 
-    os.system('termux-setup-storage')
-try:
-    os.mkdir('/sdcard/ids')
-except OSError:
-    pass
-
 try:
     import os, sys, time, datetime, re, random, hashlib, threading, json, getpass, urllib, cookielib, requests
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
+
+os.system('termux-setup-storage')
+try:
+    os.mkdir('/sdcard/ids')
+except OSError:
+    pass
 
 os.system('clear')
 if not os.path.isfile('/data/data/com.termux/files/usr/bin/node'):
