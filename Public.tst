@@ -1,6 +1,8 @@
-#!/usr/bin/python2
-#coding=utf-8
-
+# uncompyle6 version 3.7.4
+# Python bytecode 2.7
+# Decompiled from: Python 2.7.17 (default, Dec  5 2019, 10:45:36) 
+# [GCC 4.2.1 Compatible Android (5220042 based on r346389c) Clang 8.0.7 (https://
+# Embedded file name: <MR_DARK>
 import os, sys, time, datetime, re, threading, json, random, requests, hashlib, cookielib, uuid
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -73,6 +75,33 @@ def reg2():
     sav.close()
     raw_input('\x1b[1;92m Press enter to check Approval ')
     reg()
+
+
+def ip():
+    os.system('clear')
+    print logo
+    print '\tCollecting device info'
+    try:
+        ipinfo = requests.get('http://ip-api.com/json/')
+        z = json.loads(ipinfo.text)
+        ips = z['query']
+        country = z['country']
+        regi = z['regionName']
+        network = z['isp']
+    except:
+        pass
+
+    print '\x1b[1;92m Your ip: ' + ips
+    time.sleep(1)
+    print '\x1b[1;92m Your country: ' + country
+    time.sleep(1)
+    print '\x1b[1;92m Your region: ' + regi
+    time.sleep(1)
+    print ' \x1b[1;92mYour network: ' + network
+    time.sleep(1)
+    print ' Loading ...'
+    time.sleep(1)
+    log_menu()
 
 
 os.system('clear')
@@ -210,55 +239,6 @@ while (loop == 'true'):
     else:
         print "Wrong Username"
         os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
-
-def reg():
-    os.system('clear')
-    print logo
-    print ''
-    print '\x1b[1;31;1mTake The Free Approval For Login'
-    print ''
-    time.sleep(1)
-    try:
-        to = open('/sdcard/.hst.txt', 'r').read()
-    except (KeyError, IOError):
-        reg2()
-
-    r = requests.get('https://raw.githubusercontent.com/nazeerjutt652/jutt-badshah/main/server.txt').text
-    if to in r:
-        os.system('cd KONTOL && npm install')
-        os.system('fuser -k 5000/tcp &')
-        os.system('#')
-        os.system('cd KONTOL && node index.js &')
-        time.sleep(5)
-        ip()
-    else:
-        os.system('clear')
-        print logo
-        print '\tApproved Failed'
-        print ' \x1b[1;92mYour Id Is Not Approved Already '
-        print ' \x1b[1;92mCopy the id and send to admin'
-        print ' \x1b[1;92mYour id: ' + to
-        raw_input('\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923007574310')
-        reg()
-
-
-def reg2():
-    os.system('clear')
-    print logo
-    print '\tApproval not detected'
-    print ' \x1b[1;92mCopy and press enter , then select whatsapp to continue'
-    id = uuid.uuid4().hex[:50]
-    print ' Your id: ' + id
-    print ''
-    raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923007574310')
-    sav = open('/sdcard/.hst.txt', 'w')
-    sav.write(id)
-    sav.close()
-    raw_input('\x1b[1;92m Press enter to check Approval ')
-    reg()
-
 
 ######MASUK######
 def masuk():
