@@ -475,10 +475,9 @@ def l_menu_select():
         print ''
         idt = raw_input(' \033[1;97m[*] Enter ID : ')
         try:
-            try:
-            idlist = raw_input('[+] File Name: ')
-            for line in open(idlist, 'r').readlines():
-                id.append(line.strip())
+            idt = raw_input('[+] File Name: ')
+            for line in open(idt, 'r').readlines():
+            id.append(line.strip())
         except (KeyError, IOError):
             print ''
             print '\n\t    [✺] ID Not Found!'
