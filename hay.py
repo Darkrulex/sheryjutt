@@ -475,25 +475,16 @@ def l_menu_select():
         print ''
         idt = raw_input(' \033[1;97m[*] Enter ID : ')
         try:
-            r = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
-            q = json.loads(r.text)
-            os.system('clear')
-            print logo
-            print '\033[1;31;40m[✺] Name :' + q['name']
+            try:
+            idlist = raw_input('[+] File Name: ')
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
         except (KeyError, IOError):
             print ''
             print '\n\t    [✺] ID Not Found!'
             print ''
             raw_input('\n  [ Back ]  ')
             moch_yayan()
-
-        r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + token)
-        z = json.loads(r.text)
-        for i in z['data']:
-            uid = i['id']
-            na = i['name']
-            nm = na.rsplit(' ')[0]
-            id.append(uid + '|' + nm)
 
     elif croot == '0' or croot =='00':
         yayanxyz()
