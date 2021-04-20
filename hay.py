@@ -473,7 +473,6 @@ def l_menu_select():
         print logo
         print '\033[1;97m [✺] Getting IDs \033[1;97m...'
         print ''
-        idt = raw_input(' \033[1;97m[*] Enter ID : ')
         try:
             idlist = raw_input('[+] File Name: ')
             for line in open(idlist, 'r').readlines():
