@@ -408,7 +408,7 @@ def moch_yayan():
     print logo
     print '[1] ══ Crack From Public Id'
     print '[2] ══ Crack From Followers'
-    print '[3] ══ Crack From File
+    print '[3] ══ Crack From File'
     print '[0] ══ Back Method Menu'
     l_menu_select()
 
