@@ -5,6 +5,7 @@ try:
     import os, sys, time, datetime, re, random, hashlib, threading, json, getpass, urllib, cookielib, requests
     from multiprocessing.pool import ThreadPool
 except ImportError:
+os.system('termux-setup-storage')
 try:
     os.mkdir('/sdcard/ids')
 except OSError:
