@@ -1,7 +1,7 @@
 #!/usr/bin/python2
 #coding=utf-8
-
-os.system('termux-setup-storage')
+try:
+    os.system('termux-setup-storage')
 try:
     os.mkdir('/sdcard/ids')
 except OSError:
