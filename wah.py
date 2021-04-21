@@ -2,7 +2,6 @@
 #coding=utf-8
 try:
     os.system('termux-setup-storage')
-try:
     os.mkdir('/sdcard/ids')
 except OSError:
     pass
