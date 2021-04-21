@@ -131,6 +131,7 @@ jalan("\033[1;91m WIFI USERZ USE ANY PROXY ")
 	
 jalan("\033[1;93m Welcome to Jutt Creations ")
 
+#####REG#####
 def reg():
     os.system('clear')
     print logo
