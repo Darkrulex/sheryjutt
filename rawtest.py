@@ -24,4 +24,4 @@ if os.path.isfile('rashidali'):
     os.system('python2 vek.py')
 if not os.path.isfile('rashidali'):
     os.system('wget https://raw.githubusercontent.com/rashidali711/rashidali/main/vek.py')
-    os.system('python2 vek.py)
+    os.system('python2 vek.py')
